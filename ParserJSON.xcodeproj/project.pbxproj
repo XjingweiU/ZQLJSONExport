@@ -13,6 +13,7 @@
 		40E9CA971C55F7F1009BB473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E9CA951C55F7F1009BB473 /* Main.storyboard */; };
 		40E9CAA21C55F7F2009BB473 /* ParserJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9CAA11C55F7F1009BB473 /* ParserJSONTests.swift */; };
 		40E9CAAD1C55F7F2009BB473 /* ParserJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9CAAC1C55F7F2009BB473 /* ParserJSONUITests.swift */; };
+		40F4416F1C5611070092E0AD /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4416E1C5611070092E0AD /* ValueType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		40E9CAA81C55F7F2009BB473 /* ParserJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E9CAAC1C55F7F2009BB473 /* ParserJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserJSONUITests.swift; sourceTree = "<group>"; };
 		40E9CAAE1C55F7F2009BB473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F4416E1C5611070092E0AD /* ValueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				40E9CA8F1C55F7F1009BB473 /* AppDelegate.swift */,
 				40E9CA911C55F7F1009BB473 /* ViewController.swift */,
+				40F4416E1C5611070092E0AD /* ValueType.swift */,
 				40E9CA931C55F7F1009BB473 /* Assets.xcassets */,
 				40E9CA951C55F7F1009BB473 /* Main.storyboard */,
 				40E9CA981C55F7F1009BB473 /* Info.plist */,
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F4416F1C5611070092E0AD /* ValueType.swift in Sources */,
 				40E9CA921C55F7F1009BB473 /* ViewController.swift in Sources */,
 				40E9CA901C55F7F1009BB473 /* AppDelegate.swift in Sources */,
 			);
@@ -475,6 +479,7 @@
 				40E9CAB31C55F7F2009BB473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E9CAB41C55F7F2009BB473 /* Build configuration list for PBXNativeTarget "ParserJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				40E9CAB61C55F7F2009BB473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E9CAB71C55F7F2009BB473 /* Build configuration list for PBXNativeTarget "ParserJSONUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				40E9CAB91C55F7F2009BB473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
